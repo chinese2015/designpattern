@@ -1,4 +1,4 @@
-package com.creatingpattern.prototypepattern;
+package com.creatingpattern.prototypepattern.improved;
 
 public class Car implements Cloneable {
 
@@ -30,4 +30,10 @@ public class Car implements Cloneable {
         this.brand = brand;
         this.speed = speed;
     }
+
+    public Car clone() throws CloneNotSupportedException {
+       return  (Car) super.clone();
+    }
+
+
 }

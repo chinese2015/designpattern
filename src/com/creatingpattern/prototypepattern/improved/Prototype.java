@@ -1,6 +1,6 @@
-package com.creatingpattern.prototypepattern;
+package com.creatingpattern.prototypepattern.improved;
 
-public abstract class Prototype implements Cloneable {
+public class Prototype implements Cloneable {
 
     private String id;
 
@@ -23,6 +23,10 @@ public abstract class Prototype implements Cloneable {
         this.name = name;
 
         this.car = new Car();
+    }
+
+    private Prototype (Car car) throws CloneNotSupportedException {
+        this.car = car.clone();
     }
 
     public String getId() {
@@ -50,7 +54,17 @@ public abstract class Prototype implements Cloneable {
         this.car.setSpeed(speed);
     }
 
-    public abstract Prototype  prototypeClone() throws CloneNotSupportedException;
+    public Prototype prototypeClone() throws CloneNotSupportedException {
+
+
+        Prototype obj = new Prototype(this.car);
+
+        obj.setId(this.getId());
+
+        obj.setName(this.getName());
+
+        return obj;
+    }
 
 
     public String toDetail(){
