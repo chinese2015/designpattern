@@ -18,7 +18,7 @@ public class Car implements Cloneable {
         return speed;
     }
 
-    public void setSpeed(String speed) {
+    public void setSpeed111(String speed) {
         this.speed = speed;
     }
 
