@@ -15,7 +15,7 @@ public class ConcreteMediator extends Mediator {
     }
 
     public void sendMessage(Colleague colleague, String message) {
-        if(colleague!=concreteConlleague1){
+        if(colleague==concreteConlleague1){
             concreteConlleague2.notify(message);
         }else{
             concreteConlleague1.notify(message);
