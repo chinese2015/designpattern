@@ -5,7 +5,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="702f70f4-1b10-43fe-861c-f9e21716da10" name="默认的" comment="" />
+    <list default="true" id="702f70f4-1b10-43fe-861c-f9e21716da10" name="默认的" comment="bridge and command pattern">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/actionpattern/interpretpattern/example/AbstractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/actionpattern/interpretpattern/example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/actionpattern/interpretpattern/example/NoteExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/actionpattern/interpretpattern/example/PlayContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/actionpattern/interpretpattern/example/ScaleExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -22,34 +31,79 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mYGdrRIbkMkvQHZIINJDbqH5uO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/creatingpattern/abstractfactorypattern/reflection" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="问题" />
+    <property name="project.structure.proportion" value="0.1507799" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.actionpattern.strategypattern" />
+      <recent name="com.structuralpattern.flyweightpattern.example" />
+      <recent name="com.actionpattern.mediatorpattern" />
+      <recent name="com.actionpattern.chainofresponsbilitypattern" />
+      <recent name="com.actionpattern.commandpattern" />
+      <recent name="com.structuralpattern.bridgepattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.actionpattern.mediatorpattern" />
+      <recent name="com.structuralpattern.bridgepattern" />
+      <recent name="com.creatingpattern.singletonpattern.hungry" />
+      <recent name="com.actionpattern.statepattern.example" />
+      <recent name="com.creatingpattern.builderpattern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaproject\designPattern\src\com\creatingpattern\abstractfactorypattern\reflection" />
+      <recent name="D:\ideaproject\designPattern\src\com\creatingpattern\abstractfactorypattern" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.client">
+  <component name="RunManager" selected="应用程序.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.structuralpattern.flyweightpattern.example.Client" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.structuralpattern.flyweightpattern.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.actionpattern.interpretpattern.example.Client" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.actionpattern.interpretpattern.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.actionpattern.strategypattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.structuralpattern.flyweightpattern.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.actionpattern.strategypattern.*" />
+          <option name="PATTERN" value="com.structuralpattern.flyweightpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.structuralpattern.decoratorpattern.client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.actionpattern.mediatorpattern.Client" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.structuralpattern.decoratorpattern.*" />
+          <option name="PATTERN" value="com.actionpattern.mediatorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,20 +124,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.client" />
+        <item itemvalue="应用程序.Client (2)" />
+        <item itemvalue="应用程序.Client (1)" />
+        <item itemvalue="应用程序.Client" />
         <item itemvalue="应用程序.Client" />
       </list>
     </recent_temporary>
@@ -100,8 +158,147 @@
       <workItem from="1609664035929" duration="693000" />
       <workItem from="1609849069634" duration="4078000" />
       <workItem from="1610029716297" duration="1509000" />
-      <workItem from="1610154923922" duration="2169000" />
+      <workItem from="1610154923922" duration="4702000" />
+      <workItem from="1610262540731" duration="4457000" />
+      <workItem from="1610289461196" duration="299000" />
+      <workItem from="1610622586396" duration="3290000" />
+      <workItem from="1610808764437" duration="2514000" />
+      <workItem from="1610884661914" duration="1361000" />
+      <workItem from="1611452160256" duration="2579000" />
+      <workItem from="1611459461565" duration="8530000" />
+      <workItem from="1611488917723" duration="778000" />
+      <workItem from="1611574516242" duration="3434000" />
+      <workItem from="1611578865208" duration="1710000" />
+      <workItem from="1611661199557" duration="3528000" />
+      <workItem from="1611665891766" duration="591000" />
+      <workItem from="1611753868052" duration="670000" />
+      <workItem from="1611754607957" duration="62000" />
+      <workItem from="1611754744389" duration="11000" />
+      <workItem from="1611973610606" duration="1790000" />
+      <workItem from="1612062702194" duration="11876000" />
+      <workItem from="1612100133590" duration="3689000" />
+      <workItem from="1612146336857" duration="3598000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1610157226245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610157226245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Proxy Pattern">
+      <created>1610284596122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610284596122</updated>
+    </task>
+    <task id="LOCAL-00003" summary="factory method pattern">
+      <created>1610289749935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610289749935</updated>
+    </task>
+    <task id="LOCAL-00004" summary="prototype method pattern">
+      <created>1610623180377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610623180377</updated>
+    </task>
+    <task id="LOCAL-00005" summary="prototype method pattern">
+      <created>1610625897420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610625897420</updated>
+    </task>
+    <task id="LOCAL-00006" summary="template method pattern">
+      <created>1610809686668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610809686668</updated>
+    </task>
+    <task id="LOCAL-00007" summary="factory method pattern">
+      <created>1610811637487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610811637487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="observer pattern">
+      <created>1611486363004</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611486363004</updated>
+    </task>
+    <task id="LOCAL-00009" summary="abstract factory pattern">
+      <created>1611579711930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611579711930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adapter and state pattern">
+      <created>1611753916199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611753916199</updated>
+    </task>
+    <task id="LOCAL-00011" summary="composite method pattern">
+      <created>1611975376358</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611975376358</updated>
+    </task>
+    <task id="LOCAL-00012" summary="iterator pattern">
+      <created>1612077322779</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612077322779</updated>
+    </task>
+    <task id="LOCAL-00013" summary="singleton method pattern">
+      <created>1612079159461</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612079159461</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bridge and command pattern">
+      <created>1612085071828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612085071828</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Mediator and chainofresponsbility pattern">
+      <created>1612099743225</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612099743225</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix bug">
+      <created>1612099980743</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612099980743</updated>
+    </task>
+    <task id="LOCAL-00017" summary="flyweight pattern">
+      <created>1612105852359</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612105852359</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,58 +332,108 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Proxy Pattern" />
+    <MESSAGE value="prototype method pattern" />
+    <MESSAGE value="template method pattern" />
+    <MESSAGE value="factory method pattern" />
+    <MESSAGE value="observer pattern" />
+    <MESSAGE value="abstract factory pattern" />
+    <MESSAGE value="adapter and state pattern" />
+    <MESSAGE value="composite method pattern" />
+    <MESSAGE value="iterator pattern" />
+    <MESSAGE value="singleton method pattern" />
+    <MESSAGE value="bridge and command pattern" />
+    <MESSAGE value="Mediator and chainofresponsbility pattern" />
+    <MESSAGE value="fix bug" />
+    <MESSAGE value="flyweight pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="flyweight pattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="470" y="350" key="#Notifications" timestamp="1610156851375">
+    <state x="470" y="350" key="#Notifications" timestamp="1612080726872">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="470" y="350" key="#Notifications/0.0.1600.1152@0.0.1600.1152" timestamp="1610156851375" />
-    <state x="557" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1609850076592">
+    <state x="470" y="350" key="#Notifications/0.0.1600.1152@0.0.1600.1152" timestamp="1612080726872" />
+    <state x="249" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612100231807">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="557" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1600.1152@0.0.1600.1152" timestamp="1609850076592" />
-    <state x="151" y="44" key="#项目结构" timestamp="1610155376116">
+    <state x="249" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.1152@0.0.1600.1152" timestamp="1612100231807" />
+    <state x="557" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1612149551248">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="151" y="44" key="#项目结构/0.0.1600.1152@0.0.1600.1152" timestamp="1610155376116" />
-    <state x="526" y="269" key="FileChooserDialogImpl" timestamp="1610156791446">
+    <state x="557" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1600.1152@0.0.1600.1152" timestamp="1612149551248" />
+    <state x="151" y="44" key="#项目结构" timestamp="1610159048340">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="526" y="269" key="FileChooserDialogImpl/0.0.1600.1152@0.0.1600.1152" timestamp="1610156791446" />
-    <state x="658" y="449" key="Github.ShareDialog" timestamp="1610156924407">
+    <state x="151" y="44" key="#项目结构/0.0.1600.1152@0.0.1600.1152" timestamp="1610159048340" />
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1612105850544">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="658" y="449" key="Github.ShareDialog/0.0.1600.1152@0.0.1600.1152" timestamp="1610156924407" />
-    <state width="1544" height="542" key="GridCell.Tab.0.bottom" timestamp="1610031230497">
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1600.1152@0.0.1600.1152" timestamp="1612105850544" />
+    <state x="526" y="269" key="FileChooserDialogImpl" timestamp="1611754657171">
+      <screen x="0" y="0" width="1600" height="1152" />
+    </state>
+    <state x="526" y="269" key="FileChooserDialogImpl/0.0.1600.1152@0.0.1600.1152" timestamp="1611754657171" />
+    <state x="658" y="449" key="Github.ShareDialog" timestamp="1610270892284">
+      <screen x="0" y="0" width="1600" height="1152" />
+    </state>
+    <state x="658" y="449" key="Github.ShareDialog/0.0.1600.1152@0.0.1600.1152" timestamp="1610270892284" />
+    <state width="1544" height="542" key="GridCell.Tab.0.bottom" timestamp="1612107914162">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
     <state width="968" height="287" key="GridCell.Tab.0.bottom/0.0.1024.720@0.0.1024.720" timestamp="1610029620369" />
-    <state width="1544" height="542" key="GridCell.Tab.0.bottom/0.0.1600.1152@0.0.1600.1152" timestamp="1610031230497" />
-    <state width="1544" height="542" key="GridCell.Tab.0.center" timestamp="1610031230497">
+    <state width="1544" height="542" key="GridCell.Tab.0.bottom/0.0.1600.1152@0.0.1600.1152" timestamp="1612107914162" />
+    <state width="1544" height="542" key="GridCell.Tab.0.center" timestamp="1612107914162">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
     <state width="968" height="287" key="GridCell.Tab.0.center/0.0.1024.720@0.0.1024.720" timestamp="1610029620369" />
-    <state width="1544" height="542" key="GridCell.Tab.0.center/0.0.1600.1152@0.0.1600.1152" timestamp="1610031230497" />
-    <state width="1544" height="542" key="GridCell.Tab.0.left" timestamp="1610031230497">
+    <state width="1544" height="542" key="GridCell.Tab.0.center/0.0.1600.1152@0.0.1600.1152" timestamp="1612107914162" />
+    <state width="1544" height="542" key="GridCell.Tab.0.left" timestamp="1612107914162">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
     <state width="968" height="287" key="GridCell.Tab.0.left/0.0.1024.720@0.0.1024.720" timestamp="1610029620369" />
-    <state width="1544" height="542" key="GridCell.Tab.0.left/0.0.1600.1152@0.0.1600.1152" timestamp="1610031230497" />
-    <state width="1544" height="542" key="GridCell.Tab.0.right" timestamp="1610031230497">
+    <state width="1544" height="542" key="GridCell.Tab.0.left/0.0.1600.1152@0.0.1600.1152" timestamp="1612107914162" />
+    <state width="1544" height="542" key="GridCell.Tab.0.right" timestamp="1612107914162">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
     <state width="968" height="287" key="GridCell.Tab.0.right/0.0.1024.720@0.0.1024.720" timestamp="1610029620369" />
-    <state width="1544" height="542" key="GridCell.Tab.0.right/0.0.1600.1152@0.0.1600.1152" timestamp="1610031230497" />
-    <state x="186" y="116" key="SettingsEditor" timestamp="1610157006879">
+    <state width="1544" height="542" key="GridCell.Tab.0.right/0.0.1600.1152@0.0.1600.1152" timestamp="1612107914162" />
+    <state x="186" y="116" key="SettingsEditor" timestamp="1611754668774">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="186" y="116" key="SettingsEditor/0.0.1600.1152@0.0.1600.1152" timestamp="1610157006879" />
-    <state x="291" y="236" key="Vcs.Push.Dialog.v2" timestamp="1610156946581">
+    <state x="186" y="116" key="SettingsEditor/0.0.1600.1152@0.0.1600.1152" timestamp="1611754668774" />
+    <state x="291" y="236" key="Vcs.Push.Dialog.v2" timestamp="1612105854981">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
-    <state x="291" y="236" key="Vcs.Push.Dialog.v2/0.0.1600.1152@0.0.1600.1152" timestamp="1610156946581" />
+    <state x="291" y="236" key="Vcs.Push.Dialog.v2/0.0.1600.1152@0.0.1600.1152" timestamp="1612105854981" />
+    <state x="91" y="91" width="1418" height="970" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612147643091">
+      <screen x="0" y="0" width="1600" height="1152" />
+    </state>
+    <state x="91" y="91" width="1418" height="970" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.1152@0.0.1600.1152" timestamp="1612147643091" />
+    <state x="470" y="433" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610271184522">
+      <screen x="0" y="0" width="1600" height="1152" />
+    </state>
+    <state x="470" y="433" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.1152@0.0.1600.1152" timestamp="1610271184522" />
+    <state x="379" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1612083915220">
+      <screen x="0" y="0" width="1600" height="1152" />
+    </state>
+    <state x="379" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.1600.1152@0.0.1600.1152" timestamp="1612083915220" />
     <state x="588" y="314" key="svn.repositoryBrowser" timestamp="1610156325192">
       <screen x="0" y="0" width="1600" height="1152" />
     </state>
